@@ -11,7 +11,7 @@
   - name: launch the apache-simple container on the site-b nodes
     docker_container:
       name: apache-simple
-      image: quay.io/|student_name|/ansible-for-devops-siteb
+      image: quay.io/jvdst1/ansible-for-devops-siteb5
       ports:
         - "8080:8080"
 
